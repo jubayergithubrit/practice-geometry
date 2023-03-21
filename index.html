@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geometric Solution</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <header class="bg-sky-100 pb-2 mt-6 mx-12">
+        <section class="flex justify-between mx-8">
+            <h3><span class="text-5xl font-bold">Interactive</span><br> Geometric Genius</h3>
+            <div><button class="text-2xl font-medium text-white bg-blue-600 px-7 rounded mt-4 py-2">Blog</button></div>
+        </section>
+    </header>
+
+
+    <main class="">
+        <section class="flex mx-12 mt-12 ">
+            <div class="grid grid-cols-3 gap-y-3		">
+                <div class="hover:bg-teal-100 text-center border-2 w-3/4">
+                    <img class="text-center mx-auto mt-6 w-3/6" src="images/triangle.png" alt="">
+                    <h3 class="text-2xl font-medium mt-8 ">Triangle</h3>
+                    <p>Area (A) = 0.5 X b X h</p>
+                    <label class="mx-4" for=""><input class="bg-slate-200 mt-6 w-1/5 mx-2" type="text"
+                            placeholder="b">cm</label>
+                    <label for=""><input class="bg-slate-200 mt-6 w-1/5 mx-2" type="text" placeholder="h">cm</label>
+                    <br>
+                    <button class="bg-blue-600 px-12 py-2 rounded text-white font-medium mt-8 mb-8">Calculate</button>
+                </div>
+                <div class="hover:bg-green-300 text-center border-2 w-3/4">
+                    <img class="text-center mx-auto mt-6 w-3/6" src="images/rectangle.png" alt="">
+                    <h3 class="text-2xl font-medium mt-12 ">Rectangle</h3>
+                    <p>Area (A) = w X l</p>
+                    <label class="mx-4" for=""><input class="bg-slate-200 mt-8 w-1/5 mx-2	" type="text"
+                            placeholder="w">cm</label>
+                    <label for=""><input class="bg-slate-200 mt-8 w-1/5 mx-2" type="text" placeholder="l">cm</label>
+                    <br>
+                    <button class="bg-blue-600 px-12 py-2 rounded text-white font-medium mt-8 mb-8">Calculate</button>
+                </div>
+                <div class="hover:bg-pink-300 text-center border-2 w-3/4">
+                    <img class="text-center mx-auto mt-6 w-3/6" src="images/parallelogram.png" alt="">
+                    <h3 class="text-2xl font-medium mt-12 ">Parallelogram</h3>
+                    <p>Area (A) = b X h</p>
+                    <label class="mx-4" for=""><input class="bg-slate-200 mt-10 w-1/5 mx-2	" type="text"
+                            placeholder="b">cm</label>
+                    <label for=""><input class="bg-slate-200 mt-10 w-1/5 mx-2" type="text" placeholder="h">cm</label>
+                    <br>
+                    <button class="bg-blue-600 px-12 py-2 rounded text-white font-medium mt-8 mb-8">Calculate</button>
+                </div>
+                <div class="hover:bg-fuchsia-300 text-center border-2 w-3/4">
+                    <img class="text-center mx-auto mt-10 w-3/6" src="images/rhombus.png" alt="">
+                    <h3 class="text-2xl font-medium mt-12 ">Rhombus</h3>
+                    <p>Area (A) = 0.5 X d1 X d2</p>
+                    <label class="mx-4" for=""><input class="bg-slate-200 mt-6 w-1/5 mx-2	" type="text"
+                            placeholder="d1">cm</label>
+                    <label for=""><input class="bg-slate-200 mt-6 w-1/5 mx-2" type="text" placeholder="d2">cm</label>
+                    <br>
+                    <button class="bg-blue-600 px-12 py-2 rounded text-white font-medium mt-8 mb-8">Calculate</button>
+                </div>
+                <div class="hover:bg-emerald-300 text-center border-2 w-3/4">
+                    <img class="text-center mx-auto mt-6 w-3/6" src="images/pentagon.png" alt="">
+                    <h3 class="text-2xl font-medium mt-8 ">Pentagon</h3>
+                    <p>Area (A) = 0.5 X p X b</p>
+                    <label class="mx-4" for=""><input class="bg-slate-200 mt-6 w-1/5 mx-2	" type="text"
+                            placeholder="p">cm</label>
+                    <label for=""><input class="bg-slate-200 mt-6 w-1/5 mx-2" type="text" placeholder="b">cm</label>
+                    <br>
+                    <button class="bg-blue-600 px-12 py-2 rounded text-white font-medium mt-8 mb-8">Calculate</button>
+                </div>
+                <div class="hover:bg-red-300 text-center border-solid border-2 w-3/4">
+                    <img class="text-center mx-auto mt-12 mb-8 w-3/6" src="images/ellipse.png" alt="">
+                    <h3 class="text-2xl font-medium mt-12 mb-4">Ellipse</h3>
+                    <p>Area (A) = πab</p>
+                    <label class="mx-4" for=""><input class="bg-slate-200 mt-6 w-1/5 mx-2	" type="text"
+                            placeholder="a">cm</label>
+                    <label for=""><input class="bg-slate-200 mt-6 w-1/5 mx-2" type="text" placeholder="b">cm</label>
+                    <br>
+                    <button class="bg-blue-600 px-12 py-2 rounded text-white font-medium mt-8 mb-8">Calculate</button>
+                </div>
+
+            </div>
+            <div>
+                <div class="w-full">
+                    <textarea class="" name="" id="" cols="40" rows="10">
+                        Area Calculation
+                    </textarea>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+
+</html>
